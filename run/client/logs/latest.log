@@ -1,0 +1,138 @@
+[18:18:31] [main/INFO]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:18:31] [main/INFO]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:18:31] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:18:31] [main/INFO]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[18:18:31] [main/INFO]: Forge Mod Loader version 14.23.5.2860 for Minecraft 1.12.2 loading
+[18:18:31] [main/INFO]: Java is OpenJDK 64-Bit Server VM, version 1.8.0_412-412, running on Windows 11:amd64:10.0, installed at C:\Program Files\OpenLogic\jdk-8.0.412.08-hotspot\jre
+[18:18:31] [main/ERROR]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[18:18:31] [main/ERROR]: Full: C:\Users\Lenvill\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[18:18:31] [main/ERROR]: Trimmed: c:/users/lenvill/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[18:18:31] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[18:18:31] [main/INFO]: Detected deobfuscated environment, loading log configs for colored console logs.
+[18:18:31] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[18:18:31] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[18:18:31] [main/INFO] [FML]: Searching C:\ModdingWorkshop\Base\run\client\.\mods for mods
+[18:18:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[18:18:31] [main/INFO] [CoremodTweaker]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[18:18:31] [main/INFO] [CoremodTweaker]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[18:18:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:18:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:18:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:18:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:18:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[18:18:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:18:32] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[18:18:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[18:18:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[18:18:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[18:18:32] [main/INFO] [net.minecraftforge.gradle.GradleForgeHacks]: Remapping AccessTransformer rules...
+[18:18:32] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:18:32] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[18:18:32] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[18:18:33] [Client thread/INFO] [net.minecraft.client.Minecraft]: Setting user: Player250
+[18:18:34] [Client thread/INFO] [net.minecraft.client.Minecraft]: LWJGL Version: 2.9.4
+[18:18:34] [Client thread/INFO] [FML]: -- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 1.8.0_412-412, OpenLogic-OpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), OpenLogic-OpenJDK
+	Memory: 1115486248 bytes (1063 MB) / 1331167232 bytes (1269 MB) up to 15071707136 bytes (14373 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: 
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.0 Compatibility Profile Context 24.5.1.240502' Renderer: 'AMD Radeon RX 6800'
+[18:18:35] [Client thread/INFO] [FML]: MinecraftForge v14.23.5.2860 Initialized
+[18:18:35] [Client thread/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[18:18:35] [Client thread/INFO] [FML]: Invalid recipe found with multiple oredict ingredients in the same ingredient...
+[18:18:35] [Client thread/INFO] [FML]: Replaced 1227 ore ingredients
+[18:18:35] [Client thread/INFO] [FML]: Searching C:\ModdingWorkshop\Base\run\client\.\mods for mods
+[18:18:35] [Client thread/WARN] [FML]: Mod embers is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 1.19
+[18:18:35] [Client thread/WARN] [FML]: Mod mysticalmechanics is missing the required element 'version' and a version.properties file could not be found. Falling back to metadata version 0.18
+[18:18:35] [Client thread/INFO] [FML]: Forge Mod Loader has identified 7 mods to load
+[18:18:35] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, base, embers, mysticalmechanics] at CLIENT
+[18:18:35] [Client thread/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, base, embers, mysticalmechanics] at SERVER
+[18:18:36] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: ---- Minecraft Crash Report ----
+// Uh... Did I do that?
+
+Time: 7/7/24 6:18 PM
+Description: There was a severe problem during mod loading that has caused the game to fail
+
+net.minecraftforge.fml.common.LoaderExceptionModCrash: Caught exception from Forge Mod Loader (FML)
+Caused by: java.lang.NullPointerException
+	at net.minecraftforge.fml.common.network.NetworkRegistry.newChannel(NetworkRegistry.java:207)
+	at net.minecraftforge.fml.common.network.internal.FMLNetworkHandler.registerChannel(FMLNetworkHandler.java:185)
+	at net.minecraftforge.fml.common.FMLContainer.modConstruction(FMLContainer.java:92)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.sendEventToModContainer(LoadController.java:219)
+	at net.minecraftforge.fml.common.LoadController.propogateStateMessage(LoadController.java:197)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.google.common.eventbus.Subscriber.invokeSubscriberMethod(Subscriber.java:91)
+	at com.google.common.eventbus.Subscriber$SynchronizedSubscriber.invokeSubscriberMethod(Subscriber.java:150)
+	at com.google.common.eventbus.Subscriber$1.run(Subscriber.java:76)
+	at com.google.common.util.concurrent.MoreExecutors$DirectExecutor.execute(MoreExecutors.java:399)
+	at com.google.common.eventbus.Subscriber.dispatchEvent(Subscriber.java:71)
+	at com.google.common.eventbus.Dispatcher$PerThreadQueuedDispatcher.dispatch(Dispatcher.java:116)
+	at com.google.common.eventbus.EventBus.post(EventBus.java:217)
+	at net.minecraftforge.fml.common.LoadController.distributeStateMessage(LoadController.java:136)
+	at net.minecraftforge.fml.common.Loader.loadMods(Loader.java:595)
+	at net.minecraftforge.fml.client.FMLClientHandler.beginMinecraftLoading(FMLClientHandler.java:232)
+	at net.minecraft.client.Minecraft.init(Minecraft.java:467)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:378)
+	at net.minecraft.client.main.Main.main(Main.java:123)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135)
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at net.minecraftforge.legacydev.Main.start(Main.java:91)
+	at net.minecraftforge.legacydev.MainClient.main(MainClient.java:29)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- System Details --
+Details:
+	Minecraft Version: 1.12.2
+	Operating System: Windows 11 (amd64) version 10.0
+	Java Version: 1.8.0_412-412, OpenLogic-OpenJDK
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode), OpenLogic-OpenJDK
+	Memory: 1427830976 bytes (1361 MB) / 1628438528 bytes (1553 MB) up to 15071707136 bytes (14373 MB)
+	JVM Flags: 0 total; 
+	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
+	FML: MCP 9.42 Powered by Forge 14.23.5.2860 7 mods loaded, 7 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+
+	| State | ID                | Version      | Source                                                     | Signature |
+	|:----- |:----------------- |:------------ |:---------------------------------------------------------- |:--------- |
+	| LC    | minecraft         | 1.12.2       | minecraft.jar                                              | None      |
+	| LC    | mcp               | 9.42         | minecraft.jar                                              | None      |
+	| LE    | FML               | 8.0.99.99    | forge-1.12.2-14.23.5.2860_mapped_stable_39-1.12.jar        | None      |
+	| L     | forge             | 14.23.5.2860 | forge-1.12.2-14.23.5.2860_mapped_stable_39-1.12.jar        | None      |
+	| L     | base              | 1.12.2-0.1   | main                                                       | None      |
+	| L     | mysticalmechanics | 0.18         | mysticalmechanics-300742-3006392_mapped_stable_39-1.12.jar | None      |
+	| L     | embers            | 1.19         | embers-rekindled-300777-3695248_mapped_stable_39-1.12.jar  | None      |
+
+	Loaded coremods (and transformers): 
+	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.0 Compatibility Profile Context 24.5.1.240502' Renderer: 'AMD Radeon RX 6800'
+[18:18:36] [Client thread/INFO] [STDOUT]: [net.minecraft.init.Bootstrap:printToSYSOUT:553]: #@!@# Game crashed! Crash report saved to: #@!@# C:\ModdingWorkshop\Base\run\client\.\crash-reports\crash-2024-07-07_18.18.36-client.txt
