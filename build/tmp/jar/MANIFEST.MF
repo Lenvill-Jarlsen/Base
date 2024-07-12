@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Specification-Title: Base
-Specification-Vendor: Lenvill
-Specification-Version: 1
-Implementation-Title: Base
-Implementation-Version: 1.12.2-1.0
-Implementation-Vendor: Lenvill
-Implementation-Timestamp: 2024-07-10T00:48:58-0400
-

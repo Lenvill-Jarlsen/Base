@@ -115,18 +115,17 @@ dependencies {
     minecraft 'net.minecraftforge:forge:1.12.2-14.23.5.2860'
 
     implementation fg.deobf("mezz.jei:jei_1.12.2:4.16.1.302")
-    implementation fg.deobf("curse.maven:baubles-227083:2518667")
+    //implementation fg.deobf("curse.maven:baubles-227083:2518667")
     implementation fg.deobf("codechicken:CodeChickenLib:1.12.2-3.2.3.358:universal")
     implementation fg.deobf("curse.maven:minefantasy-reforged-431996:5502673")
-    implementation fg.deobf("curse.maven:mysticalmechanics-300742:3006392")
-    implementation fg.deobf("curse.maven:embers-rekindled-300777:3695248")
+    //implementation fg.deobf("curse.maven:mysticalmechanics-300742:3006392")
+    //implementation fg.deobf("curse.maven:embers-rekindled-300777:3695248")
 
-    implementation ("net.minecraftforge:mergetool:0.2.3.3")
-    //annotationProcessor 'org.ow2.asm:asm-debug-all:5.2'
-    //annotationProcessor 'com.google.guava:guava:32.1.2-jre'
-    //annotationProcessor 'com.google.code.gson:gson:2.8.9'
+    annotationProcessor 'org.ow2.asm:asm-debug-all:5.2'
+    annotationProcessor 'com.google.guava:guava:32.1.2-jre'
+    annotationProcessor 'com.google.code.gson:gson:2.8.9'
 
-    /*
+
     implementation ('zone.rong:mixinbooter:9.1') {
         transitive = false
     }
@@ -135,9 +134,10 @@ dependencies {
     }
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'
 
-     */
+
 }
 
+//This allows gradle to package the mod in a jar file
 jar {
     archiveBaseName = mod_id
     manifest {
@@ -153,6 +153,7 @@ jar {
     }
 }
 
+//This replaces all the "${text}" elements in the mcmod.info file with their intended values
 processResources {
     // this will ensure that this task is redone when the versions change.
     inputs.property "mod_version", project.mod_version
