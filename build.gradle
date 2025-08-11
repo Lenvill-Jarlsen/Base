@@ -9,9 +9,6 @@ plugins {
     id 'org.spongepowered.mixin' version '0.7.+'
 }
 
-//apply plugin: 'idea'
-//apply plugin: 'maven-publish'
-
 fancyGradle {
     patches {
         mergetool
@@ -28,14 +25,14 @@ group = "${project.mod_group}" // groupId
 archivesBaseName = "${project.jar_name}" // artifactId - modid
 version = "${project.mc_version}-${project.mod_version}"
 
-//sourceCompatibility = targetCompatibility = compileJava.sourceCompatibility = compileJava.targetCompatibility = '1.8' // This line might be necesary on Eclipse
 java.toolchain.languageVersion = JavaLanguageVersion.of(8)
 
 minecraft {
 
-    mappings channel: project.mappings_channel, version: "${project.mappings_version}-${project.mappings_mc_version}"
+    mappings channel: 'stable', version: "${project.mappings_version}"
     //accessTransformer = file('src/main/resources/META-INF/minefantasyreforged_at.cfg')
     //My cat Loki coded this -> 3ww2eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeefred
+
     runs {
         client {
             workingDirectory project.file('run\\client')
@@ -72,9 +69,8 @@ sourceSets.all {
 }
 
 repositories {
-    google()
-    mavenCentral()
     maven {
+        name = 'CurseForge'
         url = uri('https://www.cursemaven.com')
         content {
             includeGroup 'curse.maven'
@@ -88,30 +84,20 @@ repositories {
         }
     }
     maven {
+        //This is needed for you mixins
         name = 'Sponge'
         url = uri('https://repo.spongepowered.org/maven')
     }
     maven {
+        //This is needed for your JEI dependency
         url = uri('https://maven.blamejared.com')
-    }
-    maven {
-        url = uri('https://m2.dv8tion.net/releases')
-    }
-    maven {
-        url = uri('https://jitpack.io')
     }
     maven {
         url "https://maven.cleanroommc.com"
     }
     maven {
+        // Quite naturally, the repository for you CodeChickenLib dependency
         url "https://chickenbones.net/maven/"
-    }
-    flatDir {
-        dirs 'build/libs'
-    }
-    flatDir {
-        // location for sources
-        dirs 'libs'
     }
 }
 
@@ -121,16 +107,16 @@ dependencies {
     implementation fg.deobf("mezz.jei:jei_1.12.2:4.16.1.302")
     //implementation fg.deobf("curse.maven:baubles-227083:2518667")
     implementation fg.deobf("codechicken:CodeChickenLib:1.12.2-3.2.3.358:universal")
-    implementation fg.deobf("curse.maven:minefantasy-reforged-431996:5553214")
+    implementation fg.deobf("curse.maven:minefantasy-reforged-431996:6861487")
 
     annotationProcessor 'org.ow2.asm:asm-debug-all:5.2'
     annotationProcessor 'com.google.guava:guava:32.1.2-jre'
     annotationProcessor 'com.google.code.gson:gson:2.8.9'
 
-    implementation ('zone.rong:mixinbooter:9.1') {
+    implementation ('zone.rong:mixinbooter:10.6') {
         transitive = false
     }
-    annotationProcessor ('zone.rong:mixinbooter:9.1') {
+    annotationProcessor ('zone.rong:mixinbooter:10.6') {
         transitive = false
     }
     annotationProcessor 'org.spongepowered:mixin:0.8.5:processor'

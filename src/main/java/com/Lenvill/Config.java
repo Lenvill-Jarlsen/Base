@@ -6,36 +6,13 @@ import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
 import java.io.File;
 
+@net.minecraftforge.common.config.Config(modid = Base.MODID)
 public class Config {
     public static Configuration config;
-    public static boolean aConfigOption;
 
-    public static void init(File configFile)
-    {
-        if(config == null)
-        {
-            config = new Configuration(configFile);
-            load();
-        }
-    }
+    @net.minecraftforge.common.config.Config.Comment("Here's this config option's annotation")
+    public static boolean aConfigOption = true;
 
-    //Define your options here, in this block
-    public static void load() {
-        config.addCustomCategoryComment("Main", "General config options.");
-        aConfigOption = config.getBoolean("aConfigOption","Main",true,"A true/false config option. If you are reading this, chances are it currently does absolutely nothing");
-
-        if (config.hasChanged())
-        {
-            config.save();
-        }
-    }
-
-    @SubscribeEvent
-    public void onConfigChanged(ConfigChangedEvent.OnConfigChangedEvent event)
-    {
-        if(event.getModID().equalsIgnoreCase(Base.MODID))
-        {
-            load();
-        }
-    }
+    @net.minecraftforge.common.config.Config.Comment("Tool for debugging")
+    public static boolean advancedLogging = false;
 }

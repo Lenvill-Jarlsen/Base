@@ -20,8 +20,7 @@ public class Base {
 
     @Mod.EventHandler
     public void preInit(FMLPreInitializationEvent event) {
-        MinecraftForge.EVENT_BUS.register(new Config());
-        Config.init(event.getSuggestedConfigurationFile());
+
     }
 
     @Mod.EventHandler

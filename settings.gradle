@@ -3,8 +3,6 @@ pluginManagement {
      * These are the repositories used by the plugins at the top of the build.gradle file.
      */
     repositories {
-        gradlePluginPortal()
-        mavenCentral()
         //Forge
         maven {
             name 'MinecraftForge'
