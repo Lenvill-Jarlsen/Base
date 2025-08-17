@@ -8,7 +8,6 @@ import java.io.File;
 
 @net.minecraftforge.common.config.Config(modid = Base.MODID)
 public class Config {
-    public static Configuration config;
 
     @net.minecraftforge.common.config.Config.Comment("Here's this config option's annotation")
     public static boolean aConfigOption = true;
