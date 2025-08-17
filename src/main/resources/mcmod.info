@@ -2,7 +2,7 @@
   {
     "modid": "${mod_id}",
     "name": "${name}",
-    "description": "Miscellaneous features from older Minefantasy versions brought forward and added to Minefantasy: Reforged",
+    "description": "A mod template hacked together by Lenvill from several examples",
     "version": "${mod_version}",
     "mcversion": "${mc_version}",
     "url": "${url}",

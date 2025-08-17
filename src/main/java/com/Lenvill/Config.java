@@ -1,25 +1,17 @@
 package com.Lenvill;
 
-@net.minecraftforge.common.config.Config(modid = MFRLegacyFeatures.MODID)
+import net.minecraftforge.common.config.Configuration;
+import net.minecraftforge.fml.client.event.ConfigChangedEvent;
+import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
+
+import java.io.File;
+
+@net.minecraftforge.common.config.Config(modid = Base.MODID)
 public class Config {
+    public static Configuration config;
 
-    @net.minecraftforge.common.config.Config.Comment("Zyrridium Vein Size")
-    public static int zyrridiumSize = 8;
-
-    @net.minecraftforge.common.config.Config.Comment("Zyrridium Frequency Max")
-    public static int zyrridiumFrequencyMax = 8;
-
-    @net.minecraftforge.common.config.Config.Comment("Zyrridium Frequency Min")
-    public static int zyrridiumFrequencyMin = 8;
-
-    @net.minecraftforge.common.config.Config.Comment("Zyrridium Layer Max")
-    public static int zyrridiumLayerMax = 96;
-
-    @net.minecraftforge.common.config.Config.Comment("Zyrridium Layer Min")
-    public static int zyrridiumLayerMin = 8;
-
-    @net.minecraftforge.common.config.Config.Comment("Zyrridium Rarity")
-    public static float zyrridiumRarity = 1.0f;
+    @net.minecraftforge.common.config.Config.Comment("Here's this config option's annotation")
+    public static boolean aConfigOption = true;
 
     @net.minecraftforge.common.config.Config.Comment("Tool for debugging")
     public static boolean advancedLogging = false;
