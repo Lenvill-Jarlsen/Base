@@ -233,7 +233,7 @@ This project serves as a template for MineFantasy Reforged addon development. Wh
 
 ## Author
 - Originally written by Lenvill, based on MC Forge 1.12.2 SDK
-- Readme written by kyyrell
+- Readme written by stoicswe/kyyrell
 
 ## Support
 
